@@ -1,0 +1,797 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0067)https://cegepvicto.omnivox.ca/intr/Module/Profil/ModifMotPasse.aspx -->
+<html id="ctl00_html" lang="fr"><head id="ctl00_head" lang="fr"><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>
+	Omnivox - Modification de mot de passe
+</title>
+		<meta name="apple-itunes-app" content="app-id=721913649, app-argument=foobar">
+	<link type="text/css" href="./index_files/IntraflexCss.aspx" rel="stylesheet"><link type="text/css" href="./index_files/CssGlobal.min.css" rel="stylesheet">
+
+    <style type="text/css">
+	    .imgEnvString{position:absolute;top:0;left:0;z-index:500;}
+	     a.skip:focus, a.skip:active {position: fixed !important; top: 75px; left: 38% !important; width: 450px; border-left: 1px solid #f2c06e; border-bottom: 1px solid #f2c06e; border-top: 1px solid #ddc083; border-right: 1px solid #ddc083; color: #222222; font-size: 18px; font-weight: bold; text-align: center; padding: 25px; background: #f9ecc0; box-shadow: 0px 2px 5px #777; -webkit-box-shadow: 0px 2px 5px #777; -moz-box-shadow: 0px 2px 5px #777; z-index:500;}	 
+	    #liensDroite #lienRecherche
+	    {
+		    padding-right: 25px;
+	    }
+        .btn-toggle-beta
+        {
+
+            display:block;font-size: 14px;color: #215d94;font-weight: bold;float:right;margin-right:30px;border:1px solid #C3C3C3;padding:10px 20px;border-radius: 10px;background-color:#fff;
+
+            
+                    margin-bottom:10px;
+            
+        }
+        .btn-toggle-beta:hover
+        {
+            background-color:#E1E8FA;
+        }
+    </style>
+
+    <link href="./index_files/Intraflex" rel="stylesheet">
+
+        <script src="./index_files/RechercheJS.aspx" type="text/javascript"></script> 
+     
+
+	<script>
+		//On se fait un polyfill afin de faire fonctionner $(document).ready avant de loader jquerry
+		if (typeof window.$ === 'undefined') {
+			window.$ = function () { //on suppose que le 1er paramètre ici est document, c'est pas vraiment important
+				return {
+					ready: function (fctEvent) {
+						document.addEventListener('DOMContentLoaded', fctEvent);
+					}
+				};
+			}
+		}
+	</script>
+</head>
+
+<body id="ctl00_body" cz-shortcut-listen="true">
+
+
+
+<div id="contenuNavigationTab"><a class="skip" href="https://cegepvicto.omnivox.ca/intr/Module/Profil/ModifMotPasse.aspx#services" tabindex="0" style="position:fixed; left:-200em;">Aller à la section Mes Services</a></div>
+    <form name="aspnetForm" method="post" action="https://cegepvicto.omnivox.ca/intr/Module/Profil/ModifMotPasse.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="WZ7W31XnqGyNTv6XjPPK3YkzQBm1Qrv1UCcq8eOUqp2AZFCq6i+tZUH5URay1Lw4qt5uryak+HpFCr8lZMRsHdfZiZ0NZXEUnLlAhoxi3ZrjfMg1cyUYWPS56R/ajdpq7Cyo6DGcqMbVGCukIoVW+09++zfC1aOt70r8f0dySSxq3alWQ0NJ2vizVL/jAoQeBx7RQ4knoNIVgg4IwKmlBMMunTLLsuSQWaSFTCPhthchOvOgbuwC0/JevTBq0JbtxS2WjBNVRCM+B1V6FmICMj3qlpSdkvtCUyKCd4+0Df4dv6g5fiTdMUpgX8nsmW7I5EWa4cCWoogKaLiT26GsiZzJJy7+EH+wQSP+qZ4JS8xUsWj+phDUI5UVjjRFavLrqJTdppfuFXo1XADd3yIGVR/Oi5RrDQt/FGxTzdI5txAFYuqTHd31Kn8rzE47N9TksynAqU1OLWWRmTt8Sry2kkrOYCUqcpdO/ILy7EMjrW0PAX2yF75dyW8hSo9f0hcMm4uWoiApUjBAokYzswl6gtBxmUMAOLhrFNNjqBGDin8OsHIEFVnmSvwPlyIOHPSAQdEApB/k7yp4ZsV0azziATMZ1HlY7Qbpz6N1DFEmd9ON39sfvkQZq4fcYmG41jxNDd5FDjGFlAHRBv5QhYeF5IKcaxqHPVLQRkB14gQ27joATwV/Ezys2lIRajDMLtPWs47sFUAFxkb9xl/7WY5dfcddURnqYf3u4yPEZLnlS2M06MZJ5Pi7Cgjk3AJC34IbPd6sRugNOAyIkIbxdE8mZjZdDOtzQRajr9ee/LzrbVLDQdviZze6ZmMUf/quSadY8d3wPwIiSA7mUt8LAA5IwpMEtdKWcHylc8k6kDOn535Fqb4O+p/+majOoQJHRiW1kMS76NsieV3nbWdbVQp4ggS3SxD58nK0u319AgmaEiIACGXEN3WaD9Y00RI+2HSVUmAOw82jdnk1oSon">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./index_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./index_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./index_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script src="./index_files/ScriptResource(2).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7DE1B2EC">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="QYJGmkrtwpbX+NHfDBD9xDa+kBUr/utmnnBUnDO1uM601jqnCNJitOwRkhJHEqHsCShKKyOTxlf0UJrwj+j+ggdG+e3iqdudqcwsbd85nMd5jvlMgQYcDZbJXQIc3hO7ciQtqoKgVocC2U5w22Doy98yxhw=">
+</div>
+		<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$IntraflexScriptManager', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    	<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" class="wrapperFixed" id="MasterWrapper" style="width: 1280px;"><tbody><tr><td valign="top">
+<div id="zHeadW"><div id="zHead"><a href="https://cegepvicto.omnivox.ca/intr"><img id="logo" src="./index_files/logo.gif"></a><br><span id="user">Jean-Philippe Bourassa</span></div><div id="rotation"><img style="position: absolute; right: 0px; z-index: 200; display: block;" src="./index_files/rot_14.jpg"><img style="position:absolute;right:0" src="./index_files/rot_overlay.jpg"></div></div><div class="lienRetourGlobal" style="display:none;"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="Entete_LiensMenu"><a href="https://cegepvicto.omnivox.ca/intr/?C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" class=""><img src="./index_files/intrRetourPetit.gif" border="0" title="Ma page d&#39;accueil"></a></td><td class="Entete_LiensMenu" style="padding-left: 5px;"><a href="https://cegepvicto.omnivox.ca/intr/?C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" class="">Ma page d'accueil</a></td></tr></tbody></table></div><style type="text/css">
+.lienRetourGlobal{position:relative;top:0px;left:22px;height:10px;}
+.lienRetourGlobal a{font-weight:bold;}
+</style><script type="text/javascript">
+var startingImg=20;
+</script>
+<div id="zWrpOne">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" class="contenuIntraflex ">
+			
+            
+            
+            <tbody><tr>
+				
+				
+					<td valign="top" id="spLeftSize" class="">
+
+                         
+<style type="text/css">
+    .typeAffichageVisible
+    {
+        display: block;
+    }
+    .typeAffichageInvisible
+    {
+        display: none;
+    }
+    .mnuItem2
+    {
+        /*padding-left:11px;*/
+        font-weight: normal;
+        font-size: 11px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        display: block;
+        background-image: url(/images/general/sso_layout_puceMenu.gif);
+        background-repeat: no-repeat;
+    }
+    #divSpinner
+    {
+        width:100px;
+        text-align:center;   
+    }
+</style>
+
+<script type="text/javascript">
+
+	function changerTypeAffichageBleuManitou(categorie, nouveauStatut)
+	{
+		var urlBM = "/intr/Module/ServicesExterne/BleuManitou/BleuManitou.aspx";
+		if (document.getElementById("iframeBleuManitou").src != urlBM)
+			document.getElementById("iframeBleuManitou").src = urlBM;
+			
+		changerTypeAffichage(categorie, nouveauStatut);
+	}
+	function changerTypeAffichage(categorie, nouveauStatut)
+	{
+		var stringHTMLFrameDynamique = "<iframe src=\"/intr/UI/WebParts/Intraflex_OffreService/TypeAffichage.aspx?c=" + categorie + "&s=" + nouveauStatut + "\" id=\"iframeDynamique\" style=\"display: none; height: 0px; width: 0px;\" border=0 frameborder=0></iframe>";
+		document.getElementById("divFrameDynamique").innerHTML = stringHTMLFrameDynamique;
+
+		changerClasse(categorie + "_groupe", nouveauStatut);
+		changerLienHypertexte(categorie, nouveauStatut);
+	}
+	
+	function changerClasse(id, statut)
+	{
+		if (statut == "EXPAND")
+			document.getElementById(id).style.display = "block";
+		else if (statut == "COLLAPSE")
+			document.getElementById(id).style.display = "none";
+	}
+	
+	function changerLienHypertexte(categorie, nouveauStatut)
+	{
+		var urlExpandOff = '/images/General/BtnAgrandirOff.gif';
+		var urlRetrecirOff = '/images/General/BtnRetrecirOff.gif';
+          
+		var hrefCollapse = "javascript:changerTypeAffichage(\"" + categorie + "\", " + "\"COLLAPSE\"" + ")";
+		var hrefExpand = "javascript:changerTypeAffichage(\"" + categorie + "\", " + "\"EXPAND\"" + ")";
+	
+		var lienId = "lienCategorie_" + categorie;
+		var imgId = "img_" + categorie;
+		
+		
+			if (nouveauStatut == "EXPAND") {
+				document.getElementById(lienId).setAttribute("href", hrefCollapse);
+				document.getElementById(imgId).setAttribute("src", urlRetrecirOff);
+			}
+			else if (nouveauStatut == "COLLAPSE") {
+				document.getElementById(lienId).setAttribute("href", hrefExpand);
+				document.getElementById(imgId).setAttribute("src", urlExpandOff);
+			}
+		
+
+		
+	}
+
+
+    
+	
+</script>
+
+<div id="zServ"><div class="innerW"><a name="services" class="aNavigationTab" href="javascript:void(null);" style="cursor: text;"><h2 class="nom_part">Mes Services</h2></a>
+
+<div id="divFrameDynamique" style="display: none; height: 0px; width: 0px;">
+</div>
+<table cellpadding="0" cellspacing="0" border="0" class="uOffreService" valign="top" style="vertical-align: top;">
+    <tbody><tr><td class="ItemService ItemService_Intr_Accueil"><a href="https://cegepvicto.omnivox.ca/intr/" title="Accédez à votre page d&#39;accueil" class="lienMenu">Accueil</a></td></tr><tr><td class="ItemService ItemService_MIOE"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/RedirigeMio.ashx" title="Envoyer et recevoir des messages sur la Messagerie Interne Omnivox" class="lienMenu">Mio</a></td></tr><tr><td class="ItemService ItemService_CVIE"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fcvie&amp;IdService=CVIE&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="" class="lienMenu">Léa, l'environnement Profs-Étudiants</a></td></tr><tr><td style="padding-top: 8px;"><span style="padding-bottom: 0px;" class="lienMenu">Mes Services Omnivox<br></span></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2faens%2fAnnuaireEnseignant.ovx&amp;IdService=AENS&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Consultez l&#39;information disponible sur vos enseignants" class="lienMenuOmnivox">Annuaire des enseignants</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fRedirigeModuleDotNet.ovx%3fCodeModule%3dACAE&amp;IdService=ACAE&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Réservation en ligne ou informations" class="lienMenuOmnivox">Casiers</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fctpm%2fPaiement.ovx&amp;IdService=PAIEM&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Consultez et payez vos factures" class="lienMenuOmnivox">Centre de paiement</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fRedirigeModuleDotNet.ovx%3fCodeModule%3dLPAE&amp;IdService=LPAE&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Consultez l&#39;historique de vos transactions bancaires via Omnivox" class="lienMenuOmnivox">Centre de paiement - Historique</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fchxc%2fMain.ovx&amp;IdService=CHOIX&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Pour les étudiants du cycle régulier (jour)" class="lienMenuOmnivox">Choix de cours</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fcrsa%2fCrsa.ovx&amp;IdService=CRSA&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Consultez la liste la plus récente des cours annulés" class="lienMenuOmnivox">Cours annulés</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fRedirigeModuleDotNet.ovx%3fCodeModule%3dDMDC&amp;IdService=DMDC&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Demandez un document officiel du Collège" class="lienMenuOmnivox">Demande de documents</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fdinf%2fListeDocumentsDistribues.ovx&amp;IdService=DINF&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Accédez aux documents et messages vous étant destinés" class="lienMenuOmnivox">Documents et messages</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fress%2fDossier.ovx&amp;IdService=ADR&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Tenez votre dossier personnel à jour" class="lienMenuOmnivox">Dossier personnel</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fcnfq%2fRecensement.ovx&amp;IdService=CNFQ&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Confirmez votre fréquentation scolaire" class="lienMenuOmnivox">Fréquentation scolaire</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fhrre%2fHoraire.ovx&amp;IdService=HOR&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Consultez votre horaire pour une session de votre choix" class="lienMenuOmnivox">Horaire de cours</a></div></td></tr><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><span class="lienMenu_ModuleNonActif">Locaux - Disponibilités<br></span><span class="lienMenu_ModuleNonActifDesc">présentement désactivé</span></div></td></tr><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><span class="lienMenu_ModuleNonActif">Modification d'horaire<br></span><span class="lienMenu_ModuleNonActifDesc">présentement désactivé</span></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fplet%2fRedirige.ovx&amp;IdService=PLET&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Consultez les offres de placement - Soumettez votre candidature en ligne" class="lienMenuOmnivox">Placement</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2frmpt%2fReleveImpots.ovx&amp;IdService=RMPT&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Récuperez vos relevés d&#39;impôt" class="lienMenuOmnivox">Relevés d'impôt pour les frais de scolarité</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2frepr%2fReperes.ovx&amp;IdService=REPR&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Obtenez des informations sur les choix de carrières" class="lienMenuOmnivox">Repères - Mon Webfolio</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fRedirigeModuleDotNet.ovx%3fCodeModule%3dNOTB&amp;IdService=NOTB&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Récupérez une copie PDF de votre bulletin" class="lienMenuOmnivox">Résultats - Bulletin d'études collégiales</a></div></td></tr><tr>	<td style="font-size:10px;padding-top:1px;padding-bottom:0px; padding-left:2px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/Skytech.aspx?IdServiceSkytech=Skytech_Omnivox&amp;lk=%2festd%2fsvet%2fAccesSV.ovx&amp;IdService=SVET&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Participez à une consultation en ligne" class="lienMenuOmnivox">Sondages et votes</a></div></td></tr><tr><td style="padding-top: 8px;" class="categorieLiens"><span style="font-weight: bold; color: #005194;"><a id="lienCategorie_Carrefour technopédagogique" href="javascript:changerTypeAffichage(&quot;Carrefour technopédagogique&quot;,&quot;COLLAPSE&quot;);">Carrefour technopédagogique&nbsp;<img style="border: none;" id="img_Carrefour technopédagogique" src="./index_files/BtnRetrecirOff.gif"></a></span><table border="0" id="Carrefour technopédagogique_groupe" class="typeAffichageVisible"><tbody><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirectionServicesExternes.ashx?IdService=72&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="" class="lienMenuOmnivox">Espace des élèves</a></div></td></tr></tbody></table></td></tr><tr><td style="padding-top: 8px;" class="categorieLiens"><span style="font-weight: bold; color: #005194;"><a id="lienCategorie_Centre d&#39;aide en français" href="javascript:changerTypeAffichage(&quot;Centre d" aide="" en="" français","collapse");'="">Centre d'aide en français&nbsp;<img style="border: none;" id="img_Centre d&#39;aide en français" src="./index_files/BtnRetrecirOff.gif"></a></span><table border="0" id="Centre d&#39;aide en français_groupe" class="typeAffichageVisible"><tbody><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirectionServicesExternes.ashx?IdService=75&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="ressources en français" class="lienMenuOmnivox">Site web du CAF</a></div></td></tr><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirectionServicesExternes.ashx?IdService=76&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="lien vers ENA Moodle" class="lienMenuOmnivox">PAF autonome</a></div></td></tr><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirectionServicesExternes.ashx?IdService=77&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="Environnement numérique d&#39;apprentissage" class="lienMenuOmnivox">Moodle</a></div></td></tr></tbody></table></td></tr><tr><td style="padding-top: 8px;" class="categorieLiens"><span style="font-weight: bold; color: #005194;"><a id="lienCategorie_Bibliothèque" href="javascript:changerTypeAffichage(&quot;Bibliothèque&quot;,&quot;COLLAPSE&quot;);">Bibliothèque&nbsp;<img style="border: none;" id="img_Bibliothèque" src="./index_files/BtnRetrecirOff.gif"></a></span><table border="0" id="Bibliothèque_groupe" class="typeAffichageVisible"><tbody><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirectionServicesExternes.ashx?IdService=57&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="Services offerts" class="lienMenuOmnivox">Site de la bibliothèque</a></div></td></tr><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirectionServicesExternes.ashx?IdService=52&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="Catalogue de la bibliothèque" class="lienMenuOmnivox">Koha</a></div></td></tr></tbody></table></td></tr><tr><td style="padding-top: 8px;" class="categorieLiens"><span style="font-weight: bold; color: #005194;"><a id="lienCategorie_Autres ressources" href="javascript:changerTypeAffichage(&quot;Autres ressources&quot;,&quot;COLLAPSE&quot;);">Autres ressources&nbsp;<img style="border: none;" id="img_Autres ressources" src="./index_files/BtnRetrecirOff.gif"></a></span><table border="0" id="Autres ressources_groupe" class="typeAffichageVisible"><tbody><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirectionServicesExternes.ashx?IdService=65&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="" class="lienMenuOmnivox">Coopsco Victoriaville</a></div></td></tr><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirectionServicesExternes.ashx?IdService=44&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="" class="lienMenuOmnivox">Vega</a></div></td></tr></tbody></table></td></tr><tr><td style="padding-top: 8px;" class="categorieLiens"><span style="font-weight: bold; color: #005194;">Profil personnel</span><table border="0" id="_groupe"><tbody><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/Profil/ModifMotPasse.aspx" title="Modifiez votre mot de passe d&#39;accès à Omnivox" class="lienMenuOmnivox">Modification de mot de passe</a></div></td></tr><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/Profil/QuestionsMotPasse.aspx" title="Appuyez ici afin de modifier vos questions et réponses en cas d&#39;oubli de mot de passe" class="lienMenuOmnivox">Questions en cas d'oubli de mot de passe</a></div></td></tr></tbody></table></td></tr><tr><td style="padding-top: 8px;" class="categorieLiens"><span style="font-weight: bold; color: #005194;"><a id="lienCategorie_Omnivox Mobile" href="javascript:changerTypeAffichage(&quot;Omnivox Mobile&quot;,&quot;COLLAPSE&quot;);">Omnivox Mobile&nbsp;<img style="border: none;" id="img_Omnivox Mobile" src="./index_files/BtnRetrecirOff.gif"></a></span><table border="0" id="Omnivox Mobile_groupe" class="typeAffichageVisible"><tbody><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirigeServiceExterne.aspx?IdService=Intr_Mobile_iOS&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;Intr_Mobile_iOS&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="pour iPhone, iPad et iPod Touch" class="lienMenuOmnivox">Disponible sur l'App Store</a></div></td></tr><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="javascript:OpenCentre(&#39;/intr/Module/ServicesExterne/RedirigeServiceExterne.aspx?IdService=Intr_Mobile_Android&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744&#39;, &#39;Intr_Mobile_Android&#39;, &#39;fullscreen=no,toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,scrollbars=yes&#39;, 965, 600, false);" title="Pour téléphone et tablette Android" class="lienMenuOmnivox">Disponible sur Google Play</a></div></td></tr><tr><td style="font-size:10px;padding-top:1px;padding-bottom:0px;" valign="top"><div class="mnuItem2"><a href="https://cegepvicto.omnivox.ca/intr/Module/Profil/ModifMotPasse.aspx#Intr_Mobile_Deconnecter_Modal" data-iframe-modal="/intr/module/mobile/Deconnexion.aspx" title="Déconnecte tous vos appareils mobiles" class="lienMenuOmnivox">Déconnecter</a></div></td></tr></tbody></table></td></tr><tr><td class="ItemService ItemService_Intr_GestionServiceExterne"><a href="https://cegepvicto.omnivox.ca/intr/Module/ServicesExterne/ServiceExterne.aspx?C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" title="Permet de réinitialiser les identifications des services externes associés à votre compte." class="lienMenuPetit">Réinitialisation des services externes</a></td></tr>
+</tbody></table>
+
+</div></div><style type="text/css">
+#EnteteNeuf {
+background-color:#3098CF;
+color:black; 
+border-bottom:0px; 
+font-size:11px; 
+font-weight:bold; 
+font-family:arial;
+text-align:center;
+text-transform:capitalize;
+padding:0px;}
+#repeatTopLiens {
+background-image:url(/intr/UI/Themes/Intraflex_Defaut_VIC/images/intrLien_Top_2.jpg);
+background-repeat:repeat-x;}
+#repeatBotNeuf {
+background-image:url(/intr/UI/Themes/Intraflex_Defaut_VIC/images/intrNeuf_Bot_2.jpg);
+background-repeat:repeat-x;}
+#repeatLeftLiens {
+background-image:url(/intr/UI/Themes/Intraflex_Defaut_VIC/images/intrLien_Left_1.jpg);
+background-repeat:repeat-y;}
+#repeatRightLiens {
+background-image:url(/intr/UI/Themes/Intraflex_Defaut_VIC/images/intrLien_Right_1.jpg);
+background-repeat:repeat-y;}
+.categorieLiens
+{
+padding-left: 4px;}
+</style>
+<style type="text/css">
+    .uOffreService
+    {
+        padding: 0px;
+        margin: 0px;
+        margin-left: 8px;
+        width: 164px;
+    }
+    .uOffreService * .lienMenu
+    {
+        font-weight: bold;
+    }
+    .uOffreService * .lienMenuOmnivox
+    {
+        font-size: 12px;
+    }
+    .uOffreService * .lienMenuPetit
+    {
+        font-size: 10px;
+    }
+    .uOffreService * .lienMenu_ModuleNonActif
+    {
+        color: #888888;
+        font-size: 12px;
+    }
+    .uOffreService * .lienMenu_ModuleNonActifDesc
+    {
+        color: #999999;
+        font-size: 10px;
+    }
+    span.lienMenu
+    {
+        color: #005194;
+    }
+</style>
+
+
+
+					</td> 
+				
+				<td valign="top" id="spRightSize" class="">
+				<div id="zWrapColDroite"><div id="zWrapColDroiteB">
+				    <table width="100%" border="0">
+				    
+                    <tbody><tr>
+				        <td align="right" class="layoutHeader_Liens" valign="top"><div id="divrepld">
+							<table id="liensDroite">
+								
+										<tbody><tr>
+											
+											<td align="right" id="lienRecherche"><script type="text/javascript">Skytech.Services.Intraflex.Recherche.BuildSearchBox();</script><div class="searchBox"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td valign="top"><input id="txtRecherchePortail" maxlength="150" name="txtRecherchePortail" type="text" value="Rechercher..." attr-indicateurtextboxnonmodifier="1" class="txtRechercheDefault"></td><td valign="top"><div class="divBoutonRecherche"><img id="btnRecherche" name="btnRecherche" class="btnRecherche" src="./index_files/MenuBarreOutils_iFind.gif" alt=""><img id="btnAnnulerRecherche" name="btnAnnulerRecherche" class="btnRecherche hidden" src="./index_files/CalculCharge_RetirerGroupe.gif" alt="" style="display: none;"></div></td></tr></tbody></table></div></td>
+											
+											<td id="liensDroitePlus" valign="middle"></td>
+											<td id="liensDroiteCom" valign="middle"><a id="ctl00_lnkCommentaire" tabindex="62" title="Commentaires" class="lnkCommentaire" href="https://cegepvicto.omnivox.ca/intr/Module/Commentaire.aspx?UrlLienRetour=REFERER&amp;C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744">Commentaires</a>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</td>
+											<td id="liensDroiteQuit" valign="middle"><a id="ctl00_lnkLogoffimg" tabindex="63" title="Quitter" href="https://cegepvicto.omnivox.ca/intr/Module/Identification/Quitter.aspx?C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" target="_top">Quitter</a></td>
+											<td id="liensDroiteQuitImg" valign="middle"><a id="ctl00_lnkLogoff" tabindex="64" title="Quitter" href="https://cegepvicto.omnivox.ca/intr/Module/Identification/Quitter.aspx?C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" target="_top"><img title="Quitter" src="./index_files/intrQuitter.gif" alt="Quitter" style="border-width:0px;"></a></td>
+										</tr>
+								
+							</tbody></table></div>
+						</td>
+				    </tr>
+                    
+				    <tr>
+				        <td valign="top" style="text-align:left;" class="tdContenuDroitIntr">
+							
+							<div id="spSpacerDiv"><div id="spSpacerDivB">
+							<table id="ctl00_spSpacer" align="center" border="0" cellpadding="0" cellspacing="0" class="spacer_b alignCenterRecherche" width="auto">
+	<tbody><tr>
+		<td>
+    <link href="./index_files/PagesIntermediaires" rel="stylesheet">
+
+    <style type="text/css">
+		.lienALONonRecup {
+			background-image: url(/WebApplication/Module.AVIE/UI/Images/GEN/iconeNoCellPhone_petit.png);
+			background-position: 0px 1px;
+			background-repeat: no-repeat;
+			background-size: 25px 25px;
+			padding-left: 30px;
+			display: block;
+			width: 300px;
+		}
+
+		.lienALORecup {
+			background-image: url(/WebApplication/Module.AVIE/UI/Images/GEN/iconeTitreCellPhone_petit.png);
+			background-position: 0px 1px;
+			background-repeat: no-repeat;
+			background-size: 25px 25px;
+			padding-left: 30px;
+			display: block;
+			width: 230px;
+		}
+
+		.tdFillSpace {
+			width: 100%;
+		}
+
+	    .module-header .module-header-icon {
+	        margin-right: 5px;
+        }
+	</style>
+
+	<table class="CssGlobal pages-intermediaires" width="570" cellpadding="2" cellspacing="0" border="0" align="center">
+        <tbody><tr>
+            <td class="module-header">
+                <div class="module-header-icon">
+				    <div class="svg-icon "><!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1-DC78AC" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34.414 50" enable-background="new 0 0 34.414 50" xml:space="preserve" focusable="false" width="100%" height="100%" aria-hidden="true" aria-labelledby="SvgIcon-modif_mdp.svg-DC78AC">
+<path d="M30.82,20.806v-7.188C30.82,6.097,24.723,0,17.202,0S3.584,6.097,3.584,13.618v7.188C1.469,21.404,0.006,23.332,0,25.53  v19.544C0.001,47.795,2.206,50,4.927,50h24.56c2.718,0.003,4.924-2.197,4.927-4.915c0-0.004,0-0.007,0-0.011V25.53  C34.411,23.328,32.942,21.397,30.82,20.806z M19.352,37.755v3.7c0,1.187-0.963,2.15-2.15,2.15c-1.187,0-2.15-0.963-2.15-2.15v-3.7  c-2.589-1.187-3.726-4.249-2.539-6.839c1.187-2.589,4.249-3.726,6.839-2.539s3.726,4.249,2.539,6.839  C21.376,36.339,20.475,37.24,19.352,37.755z M27.307,20.594H7.097v-6.976c0-5.581,4.524-10.105,10.105-10.105  s10.105,4.524,10.105,10.105V20.594z"></path>
+<title id="SvgIcon-modif_mdp.svg-DC78AC" xmlns="">Modification de mot de passe</title></svg></div>
+			    </div>
+			    <div class="module-header-text">
+				    <div class="module-header-title">
+                       Modification de mot de passe
+				    </div>
+                    <div class="module-header-description">
+                        Cette page vous permet de modifier votre mot de passe Omnivox.
+                    </div>
+			    </div>
+			    <a href="https://cegepvicto.omnivox.ca/intr/Module/Profil/ModifMotPasse.aspx#module-long-description-modal" class="module-header-info-icon modal-trigger" title="Instructions">
+				    <i class="material-icons info_outline"></i>
+                    
+			    </a>
+            </td>
+        </tr>
+        
+        <tr>
+			<td>
+				
+				<br>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<table class="Gen_Table Gen_Table_AddSet" width="100%">
+					<tbody><tr>
+						<td class="Gen_Td_Colonne_Gauche" style="padding-bottom:14px;">
+							<label for="ctl00_cntFormulaire_txtNomUtilisateur" id="ctl00_cntFormulaire_Label1">Nom&nbsp;</label>
+						</td>
+						<td class="Gen_Td_Colonne_Droite">
+							<span id="ctl00_cntFormulaire_txtNomUtilisateur">Bourassa, Jean-Philippe</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Gen_Td_Colonne_Gauche" style="padding-top:6px;">
+							<label for="ctl00_cntFormulaire_txtAncienMDP" id="ctl00_cntFormulaire_Label2">Mot de passe actuel&nbsp;</label>
+						</td>
+						<td class="Gen_Td_Colonne_Droite">
+							<input name="ctl00$cntFormulaire$txtAncienMDP" type="password" maxlength="20" id="ctl00_cntFormulaire_txtAncienMDP" autocomplete="off" style="width:175px;">
+						</td>
+					</tr>
+					<tr>
+						<td class="Gen_Td_Colonne_Gauche" style="padding-top:6px;">
+							<label for="ctl00_cntFormulaire_txtNouveauMDP" id="ctl00_cntFormulaire_Label3">Nouveau mot de passe&nbsp;</label>
+						</td>
+						<td class="Gen_Td_Colonne_Droite">
+							<input name="ctl00$cntFormulaire$txtNouveauMDP" type="password" maxlength="20" id="ctl00_cntFormulaire_txtNouveauMDP" autocomplete="off" style="width:175px;">
+						</td>
+					</tr>
+					<tr>
+						<td class="Gen_Td_Colonne_Gauche" style="padding-top:6px;">
+							<label for="ctl00_cntFormulaire_txtNouveauConfirmMDP" id="ctl00_cntFormulaire_Label4">Confirmation du mot de passe&nbsp;</label>
+						</td>
+						<td class="Gen_Td_Colonne_Droite">
+							<input name="ctl00$cntFormulaire$txtNouveauConfirmMDP" type="password" maxlength="20" id="ctl00_cntFormulaire_txtNouveauConfirmMDP" autocomplete="off" style="width:175px;">
+						</td>
+					</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+	</tbody></table>
+	<br>
+	<table width="570" align="center" cellpadding="0" cellspacing="0" border="0" style="padding-bottom: 15px;">
+		<tbody><tr>
+			<td align="right" style="border-top: 1px solid #C9C9C9">
+				<table width="100%">
+					<tbody><tr>
+						<td style="vertical-align: top;">
+							<a href="https://cegepvicto.omnivox.ca/intr/?C=VIC&amp;E=P&amp;L=FRA&amp;Ref=20190508133744" class="Gen_Btn Gen_BtnPrecedent" style="color: White;">
+								Retour
+							</a>
+						</td>
+						<td class="tdFillSpace">&nbsp;</td>
+						<td style="vertical-align: top">
+							<input type="submit" name="ctl00$cntFormulaire$btnSubmit" value="Modifier" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cntFormulaire$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_cntFormulaire_btnSubmit" class="btnSubmit Gen_Btn Gen_BtnContinuer">
+						</td>
+					</tr>
+				</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+
+    <div id="module-long-description-modal" class="modal" style="display: none; opacity: 0; top: 4%; transform: scaleX(0.8) scaleY(0.8);">
+        <h4>Modification de mot de passe</h4>
+        <div class="divider"></div>
+        Cette page vous permet de modifier votre mot de passe Omnivox. Pour ce faire, <ul><li>Saisissez d'abord votre <i>Mot de passe actuel</i></li><li>Saisissez votre <i>Nouveau mot de passe</i></li><li>Saisissez-le à nouveau dans la case <i>Confirmation du mot de passe</i> pour le confirmer</li></ul><br>Votre mot de passe ne doit être composé que de lettres non accentuées (a...z) et de chiffres (0...9).  Il doit être d'une longueur d'au moins 8 caractères et doit contenir au moins une lettre et au moins un chiffre.
+        <div class="modal-footer">
+            <button type="button" class="btn-portail modal-close">Fermer</button>
+        </div>
+    </div>
+
+	<span id="ctl00_cntFormulaire_vldMDP" style="color:Red;display:none;"></span>
+
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function () {
+			$('#ctl00_cntFormulaire_btnSubmit').on('click', function (e) {
+				e.preventDefault();
+				e.stopPropagation();
+
+				$(this).prop('disabled', true);
+				$(this).addClass('Gen_BtnInactif');
+
+				$('form').submit();
+            });
+
+            var modifMdpModal = new Intraflex.Modal($(".modal-trigger[href=#module-long-description-modal]")[0]);
+		});
+	</script>
+</td>
+	</tr>
+</tbody></table>
+	
+							</div></div>
+						</td>
+			        </tr>
+				    </tbody></table>
+				</div></div>
+				</td>				
+			</tr>
+		</tbody></table>
+		</div></td></tr><tr><td class="footerPart">
+<div id="zFootA"><img src="./index_files/bg_foot_a.gif"></div><div id="zFootB"><img src="./index_files/bg_foot_c.jpg"></div><div id="zFootDown"><span id="fone"><a href="javascript:OpenCentre(&#39;/intr/Module/Information/APropos.aspx&#39;, &#39;Intr_Information&#39;, &#39;fullscreen=no,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,scrollbars=yes&#39;, 700, 500, false);" class="">À propos d'Omnivox</a> | <a href="javascript:OpenCentre(&#39;/intr/Module/Information/Confidentialite.aspx&#39;, &#39;Intr_Information&#39;, &#39;fullscreen=no,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,scrollbars=yes&#39;, 700, 500, false);" class="">Sécurité et Paiement</a> | <a href="javascript:OpenCentre(&#39;/intr/Module/Information/Conditions.aspx&#39;, &#39;Intr_Information&#39;, &#39;fullscreen=no,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,scrollbars=yes&#39;, 700, 500, false);" class="">Conditions d'utilisation</a></span><span id="ftwo">Plateforme Omnivox développée par <a href="http://www.skytech.com/" title="Skytech Communications" target="_blank" class="LienSky">Skytech Communications</a></span></div><style type="text/css">
+*{margin:0;padding:0;}
+html,body{width:100%;height:100%;}
+body{background:white url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_large.jpg') no-repeat top center;}
+#MasterWrapper{background-color:transparent;margin:0 auto;}
+#zHeadW{position:relative;overflow:hidden;height:238px;}
+#zHead{height:238px;position:absolute;z-index:200;left:0}
+#rotation{height:238px;width:869px;margin:0 auto;text-align:right;padding-top:59px;position:relative}
+#zWrpOne{background-color:white}
+#logo{border:0;position:relative;top:20px;left:28px;}
+#user{position:relative;top:18px;left:34px;font-family:'trebuchet ms',tahoma,arial;color:#e98715;font-weight:bold;display:block;width:400px;}
+#zServ .innerW{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_srv_a.gif') no-repeat top right;width:225px;padding:0 15px 0 15px;}
+#spLeftSize{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_srv_c.gif') repeat-y top right;width:180px;}
+.uOffreService{width:180px}
+#zServ .nom_part{display:block;background-color:red;text-indent:-9000px;overflow:hidden;height:58px;position:relative;left:-32px;top:12px;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_srv_b.gif') no-repeat top left;}
+div#h_actu{padding-right:70px;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_03.gif') no-repeat top right;}
+div#h_actu div{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_02.gif') repeat-x top left;}
+div#h_actu div div{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_01.gif') no-repeat top left;}
+div#h_cal{padding-right:70px;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_03.gif') no-repeat top right;}
+div#h_cal div{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_actu_02.gif') repeat-x top left;}
+div#h_cal div div{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_cal_01.gif') no-repeat top left;}
+div#h_rss{padding-right:70px;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_rssBig_03.gif') no-repeat top right;}
+div#h_rss div{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_rssBig_02.gif') repeat-x top left;}
+div#h_rss div div{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_rssBig_01.gif') no-repeat top left;}
+div#h_comm{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_comm.gif') no-repeat top left;}
+div#h_sites{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_sites.gif') no-repeat top left;}
+div#h_qdn{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_qdn.gif') no-repeat top left;}
+div#h_rssS{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_rss.gif') no-repeat top left;}
+div#h_meteo{height:47px;text-indent:-9000px;overflow:hidden;background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/h_meteo.gif') no-repeat top left;}
+#divrepld{position:absolute;top:0;right:5px;}
+#divrepld a{font-weight:bold;}
+.big_spacer{height:35px;}
+#zWrapColDroiteB{padding-left:20px;padding-top:15px;}
+#cellFlexible{width:20px;}
+#zFootA{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_foot_b.gif') repeat-x top left;}
+#zFootB{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_foot_d.jpg') repeat-x top left;}
+#zFootDown{background:transparent url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_foot_e.gif') repeat-x top left;color:#fff;font-size:11px;font-family:'Trebuchet MS',arial;overflow:hidden;}
+#zFootDown a{color:#fff;font-size:11px;font-family:'Trebuchet MS',arial;}
+#zFootDown a:hover{color:#000}
+#zFootDown #fone{float:left;padding:2px 5px;}
+#zFootDown #ftwo{float:right;padding:2px 5px;}
+#zFootImg{text-align:center;padding:15px 0 40px 0}
+#rightColPartWrap{width:210px}
+ul,ol{margin:10px 0 0 40px}
+#mainPartWrap{width:100%}
+ /* calendrier */
+.CalendrierScolaire .calJourSemaine{background-color:#6e676c}
+.CalendrierScolaire .calDivPrincipal{border:1px dashed #f5f5f5}
+.CalendrierScolaire .calNomMois{font-size:16px;color:#777;font-family:'Trebuchet MS','Myriad Pro','Helvetica',arial;}
+.evenementCommunaute_titre img{display:none}
+.evenementCommunaute_titre{height:20px;}
+.CalendrierScolaire .calLienMoisPrecedentSuivant{text-indent:9000px;overflow:hidden;display:block;width:23px;height:19px;background:transparent none no-repeat top left;}
+.CalendrierScolaire .calTdMoisPrecedent .calLienMoisPrecedentSuivant{background-image:url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_cal_prec.jpg')}
+.CalendrierScolaire .calTdMoisSuivant .calLienMoisPrecedentSuivant{background-image:url('/intr/UI/Themes/Intraflex_Defaut_VIC/images/bg_cal_suiv.jpg')}
+.ovx10_tblCalDates{margin-left:0px}
+.CalendrierScolaire .calNomMois{padding:0;}
+.CalendrierScolaire .calTdMoisPrecedent,.CalendrierScolaire .calTdMoisSuivant{padding:3px 0 0 0;}
+.CalendrierScolaire .calJourOver{background-color:#dfefff;cursor:default;}
+.ovx10_nOver{background-color:#fcf8ed}
+</style>
+</td></tr></tbody></table><script type="text/javascript">
+document.addEventListener("DOMContentLoaded",
+function()
+{
+setInterval(function(){SetupHeaderRotation();},tempsAttenteRotation);}
+);
+var tempsAttenteRotation = 10000;
+function SetupHeaderRotation()
+{
+var maxImg=25;//meme valeur que le random dans le fichier de header
+var lastImg = startingImg;
+startingImg = (startingImg+1>25)?1:startingImg+1;
+$("#rotation > img:first").fadeOut(500,function()
+{
+this.src = this.src.replace(lastImg+".jpg",startingImg+".jpg")
+$(this).fadeIn(500);});}
+</script>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_cntFormulaire_vldMDP"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_cntFormulaire_vldMDP = document.all ? document.all["ctl00_cntFormulaire_vldMDP"] : document.getElementById("ctl00_cntFormulaire_vldMDP");
+ctl00_cntFormulaire_vldMDP.focusOnError = "t";
+ctl00_cntFormulaire_vldMDP.display = "None";
+ctl00_cntFormulaire_vldMDP.evaluationfunction = "CustomValidatorEvaluateIsValid";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('ctl00_cntFormulaire_vldMDP').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_cntFormulaire_vldMDP'));
+}
+//]]>
+</script>
+</form>
+
+    <script src="./index_files/Intraflex(1)"></script>
+
+    
+				<script type="text/javascript">
+				document.addEventListener('DOMContentLoaded', function () {
+					var fctWait = typeof WaitForFrame !== 'undefined' ? WaitForFrame : function(c) {c();};
+					fctWait(function() {
+						var script;	});
+				});
+				</script><script src="./index_files/General"></script>
+
+
+    <script type="text/javascript">
+
+    
+
+	var maxWidth = 1280;
+	function getWidth() {
+          var myWidth = 0, myHeight = 0;
+          if( typeof( window.innerWidth ) == 'number' ) {
+            myWidth = window.innerWidth;
+            myHeight = window.innerHeight;
+          } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+            myWidth = document.documentElement.clientWidth;
+            myHeight = document.documentElement.clientHeight;
+          } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+            myWidth = document.body.clientWidth;
+            myHeight = document.body.clientHeight;
+          } 
+          return myWidth;
+    }
+	function setMaxWidth()
+	{
+		
+		//	On permet au maquettes d'avoir un max width différent
+		if (typeof maxWidthMaquette !== "undefined")
+			maxWidth = maxWidthMaquette;
+
+	    var w = getWidth();
+	    var d = document.getElementById("MasterWrapper");
+	    
+	    if(d === null) {
+			return;
+	    }
+	    if(w > maxWidth) {
+	        d.style.width = maxWidth + "px";
+	        d.className = "wrapperFixed";
+	    }
+	    else
+	    {
+	        d.style.width = "100" + "%";
+	        d.className = "wrapper";
+	    }
+	    
+		
+	}
+		
+	function genererNavigationTab() {
+		var sections = $(".aNavigationTab");
+		var contenu = "";
+		var texte = "";
+		if (sections.length > 0) {
+            for (var i = 0; i < sections.length; i++) {
+                var sectionHeading = sections[i].tagName.toLowerCase() == "h2" ? sections[i] : sections[i].getElementsByTagName("h2")[0];
+
+				if (sectionHeading.getElementsByTagName("img").length == 0){
+					texte = sanitizeTexte(sectionHeading.innerHTML);	
+					sections[i].name = formatSafeTexte(sections[i].getAttribute("name"));
+					sections[i].href = "javascript:void(null);";
+					sections[i].style.cursor = "text";
+					contenu += "<a class=\"skip\" href=\"#" + sections[i].name + "\" tabindex=\"0\" style=\"position:fixed; left:-200em;\">Aller à la section " + texte + "</a>";
+				}
+				else {
+					texte = sanitizeTexte(sections[i].getElementsByTagName("img")[0].title);	
+					sections[i].name = formatSafeTexte(sections[i].getAttribute("name"));
+					sections[i].href = "javascript:void(null);";
+					sections[i].style.cursor = "text";
+					contenu += "<a class=\"skip\" href=\"#" + sections[i].name + "\" tabindex=\"0\" style=\"position:fixed; left:-200em;\">Aller à la section " + texte + "</a>";
+				}
+			}			
+            $('#contenuNavigationTab').html(contenu);
+
+            //[B89890] 2018-10-29, Pierre-Luc Lemire: Ajustement du scrolling des href="#[ElementID]" avec la partie "Fixed" du nouveau header
+            var headerFixedBar = document.getElementById("headerFixedBar");
+            if (headerFixedBar) {
+                var internalPageLinks = document.querySelectorAll("a.skip[href*='#']");
+                for (i = 0; i < internalPageLinks.length; i++) {
+                    var element = internalPageLinks[i];
+                    if (element.attributes.href.value != "#") {
+                        element.addEventListener("keydown", function (e) {
+                            if (e.which == 13) {
+                                e.preventDefault();
+                                var targetId = e.target.attributes.href.value.replace('#', '');
+                                var targetElement = document.querySelector("[name=" + targetId + "]"); //NOTE : Les anchors ci-dessus utilise le name
+
+                                if (!targetElement)
+                                    return; //Element introuvable.
+
+                                var doc = document.documentElement;
+                                var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+                                var elementOffset = targetElement.getBoundingClientRect().top - (headerFixedBar.clientHeight + 5); //+5 pour distancer un peu le bas du header du top de l'element
+                                var scrollTo = top + elementOffset;
+
+                                window.scroll(0, scrollTo);
+                                return;
+                            }
+                        });
+                    }
+                }
+            }
+
+		}
+	}
+		
+	// Pour enlever les balises HTML
+	function sanitizeTexte(texte){
+		while (texte.indexOf('<') != -1) {
+			texte = texte.replace(texte.substring(texte.indexOf('<'), texte.indexOf('>') + 1), ' ').trim();
+		}
+		return texte;
+	}
+
+	// Pour rendre le texte HTML proof (pour les attributs name des <a>)
+	function formatSafeTexte(texte){
+	//.replace(/[^\w\s]/gi, '') (pour les accents, pas vraiment besoin)
+		texte = texte.replace(/ /g, '_').trim();
+		return texte;
+	}
+
+    document.addEventListener("DOMContentLoaded", function () {
+        setMaxWidth();
+        $(window).resize(function () { setMaxWidth(); });
+        $(".btn-toggle-beta").click(toggleParticipationBetaOmnivoxV19);
+
+        $(document).keyup(function (e) {
+            // Si c'est un escape ou un enter
+            if (e.keyCode == "27" || e.keyCode == "13") {
+			    if($(document.activeElement) != null && $(document.activeElement).attr('href') != null){
+				    var target = $(document.activeElement).attr('href').replace('#', '');		
+				    if(document.getElementsByName(target)[0] != null){	
+					    $(".skip").blur();
+					    document.getElementsByName(target)[0].focus();
+				    }
+			    }
+            }
+        });
+    });
+
+	// Il faut que tout soit chargé pour exécuter cette méthode,
+	// sinon on aura pas toutes les sections.
+	 window.onload = function() {
+		genererNavigationTab();
+		gererAffichageBoutonRetour();
+	 }
+
+	
+	 function gererAffichageBoutonRetour() {
+		var isMenuAfficher = 'True' == 'True';
+
+		if (isMenuAfficher) {
+			$('.trLienRetourGlobal').hide();
+			$('.lienRetourGlobal').hide();
+		}
+		else {
+			$('.trLienRetourGlobal').show();
+			$('.lienRetourGlobal').show();
+		}
+	 }
+
+	 
+	
+
+	var _valSes_Actif = 'N';
+
+
+    var blnIsWorking = false;
+    function toggleParticipationBetaOmnivoxV19() {
+        if (blnIsWorking === false) {
+            blnIsWorking = true;
+
+            $.ajax({
+    		    type: "POST",
+		        url:  "/intr/Module/Profil/Profile.asmx/ToggleParticipationBetaOmnivoxV19",
+		        contentType: "application/json; charset=utf-8",
+		        dataType: "json",
+                data: {},
+                success: function (data) {
+                    if (data.d === "OK") {
+                        window.location.reload(true);
+                    }
+                    else {
+                        blnIsWorking = false;
+                        alert('Une erreur est survenue lors de l\'opération. Veuillez réessayer ultérieurement.');
+                    }
+                },
+                error: function (e) {
+                    blnIsWorking = false;
+                    alert('Une erreur est survenue lors de l\'opération. Veuillez réessayer ultérieurement.');
+		        }});
+        }
+    }
+</script>
+
+</body></html>
